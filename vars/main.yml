@@ -1,4 +1,6 @@
 ---
+dependencies:
+  - 'storage-server'
 install_packages:
   - 'git'
 user_groups:
@@ -29,4 +31,3 @@ commands:
     chdir:              '/storage/sensitive'
     creates:            '/storage/sensitive/.git/origin_is_set'
     user:               'sensitive'
-  - 'storage_server'
