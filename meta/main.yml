@@ -1,0 +1,5 @@
+---
+dependencies:
+  - role:     'storage-server'
+    tags:     
+      - 'dependency'
